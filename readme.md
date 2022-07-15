@@ -1,5 +1,8 @@
 # biocurl
 
+`biocurl` is a tool for downloading and filtering gff files, so you don't have 
+to download the entire file.
+
 - Client make a request to a lambda
 - File is in the server?
   - No:
@@ -17,6 +20,10 @@
 - Client write the file 
 
 
-2.
+```bash
+# filtering
 biocurl https://ftp.ncbi.nlm.nih.gov/.../GCF_000002035.6_GRCz11_genomic.gff.gz --filter { source: Gnomon }
+# getting the scheme, if the server have the already downloaded the file
 biocurl https://ftp.ncbi.nlm.nih.gov/.../GCF_000002035.6_GRCz11_genomic.gff.gz --scheme
+```
+
