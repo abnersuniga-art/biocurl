@@ -1,0 +1,33 @@
+html, body {
+  background-color: #99d98c;
+  font-family: 'Lora', serif;
+  height: 100%;
+}
+
+.code {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #808080;
+  color: white;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+main {
+  margin: auto;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background-color: rgba(255,255,255, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
