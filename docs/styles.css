@@ -4,14 +4,6 @@ html, body {
   height: 100%;
 }
 
-.code {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #808080;
-  color: white;
-  border-radius: 4px;
-  padding: 0 2px;
-}
-
 main {
   margin: auto;
   max-width: 800px;
@@ -30,4 +22,24 @@ section {
 img {
   display: block;
   margin: auto;
+}
+
+.code {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #808080;
+  color: white;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+.bio {
+  background-color: rgb(239,171,205);
+  border-radius: 4px 0 0 4px;
+  padding-left: 2px;
+}
+
+.curl {
+  background-color: rgb(26,117,159);
+  border-radius: 0 4px 4px 0;
+  padding-right: 2px;
 }
